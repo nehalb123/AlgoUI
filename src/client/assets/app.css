@@ -1,0 +1,134 @@
+body {
+    padding-top: 70px;
+}
+
+body, p, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.navbar-default {
+    background-color: white;
+}
+
+.panel-heading span {
+    margin-top: -17px;
+    font-size: 15px;
+}
+
+hr.star-light:after {
+    background-color: #18BC9C;
+    color: white;
+}
+
+hr.star-light:after {
+    content: "\f005";
+    font-family: 'Font Awesome\ 5 Free', serif;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    font-size: 2em;
+    padding: 0 .25em;
+}
+
+.btn-outline {
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    color: #18BC9C;
+    background: white;
+    border: solid 2px white;
+}
+
+.modal-container {
+    position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+    position: absolute;
+}
+
+#menu > .active > a {
+    color: #4078c0;
+    background-color: whitesmoke;
+}
+#menu > li > a:hover {
+    color: #4078c0
+}
+
+.problems-filter-enter {
+    opacity: 0.01;
+}
+
+.problems-filter-enter.problems-filter-enter-active {
+    opacity: 1;
+    transition: opacity 600ms ease-in;
+}
+
+.problems-filter-leave {
+    opacity: 1;
+}
+
+.problems-filter-leave.problems-filter-leave-active {
+    opacity: 0.01;
+    transition: opacity 600ms ease-in;
+}
+
+.pulse-button {
+    box-shadow: 0 0 0 0 rgba(92,184,92, 0.7);
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+.pulse-button:hover
+{
+    -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+}
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 25px rgba(92,184,92, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 25px rgba(92,184,92, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 25px rgba(92,184,92, 0);}}
+
+.react-calendar-heatmap text {
+    font-size: 10px;
+    fill: #aaa;
+}
+
+.react-calendar-heatmap .react-calendar-heatmap-small-text {
+    font-size: 5px;
+}
+
+.react-calendar-heatmap rect:hover {
+    stroke: #555;
+    stroke-width: 1px;
+}
+
+.react-calendar-heatmap .color-github-0 {
+    fill: #eeeeee;
+}
+.react-calendar-heatmap .color-github-1 {
+    fill: #d6e685;
+}
+.react-calendar-heatmap .color-github-2 {
+    fill: #8cc665;
+}
+.react-calendar-heatmap .color-github-3 {
+    fill: #44a340;
+}
+.react-calendar-heatmap .color-github-4 {
+    fill: #1e6823;
+}
+
+.dropdown-menu .divider {
+    margin: 5px 0;
+}

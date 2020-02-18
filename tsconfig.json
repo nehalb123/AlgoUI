@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "outDir": "./build/public",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "module": "commonjs",
+    "jsx": "react",
+    "target": "es5",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "lib": ["dom","es5","scripthost", "es6"]
+  },
+  "include": [
+    "./src/client/",
+    "./src/tests/"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
