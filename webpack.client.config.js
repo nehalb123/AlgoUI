@@ -33,7 +33,7 @@ module.exports = {
             "window.jQuery": "jquery"
         }),
         new HTMLWebpackPlugin({
-            title: "JAlgoArena",
+            title: "AlgoCup",
             favicon: path.resolve(__dirname, "src", "client", "assets", "favicon.ico"),
             template: path.resolve(__dirname, "src", "client", "assets", "index.html"),
             filename: path.resolve(__dirname, outputDirectory, "index.html"),

@@ -12,8 +12,6 @@ RUN npm run build
 
 FROM node:8.11.3-alpine
 
-MAINTAINER Jacek Spolnik <jacek.spolnik@gmail.com>
-
 COPY --from=build /app/build /app
 WORKDIR /app
 

@@ -1,7 +1,7 @@
 {
-  "name": "jalgoarena-ui",
+  "name": "algocup-ui",
   "version": "2.5.0",
-  "description": "JAlgoArena UI",
+  "description": "AlgoCup UI",
   "main": "build/server.js",
   "scripts": {
     "installRequiredGlobalDependencies": "npm install webpack-cli -g",
@@ -20,17 +20,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jalgoarena/JAlgoArena-UI.git"
+    "url": "git+https://github.com/nehalb123/AlgoUI.git"
   },
-  "keywords": [
-    "JAlgoArena"
-  ],
-  "author": "Jacek Spólnik",
+  "author": "Nehal Borole",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jalgoarena/JAlgoArena-UI/issues"
-  },
-  "homepage": "https://github.com/jalgoarena/JAlgoArena-UI#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.1",
     "@fortawesome/fontawesome-free-webfonts": "^1.0.8",

@@ -15,7 +15,7 @@ export const CodeOfConductPage = () => (
         <Row>
             <Col mdOffset={2} lg={8}>
                 <h3>Honor Code</h3>
-                <p>You need to follow JAlgoArena’s Honor Code to uphold JAlgoArena's standard of contest integrity:</p>
+                <p>You need to follow AlgoCup’s Honor Code to uphold AlgoCup’s standard of contest integrity:</p>
                 <ul>
                     <li>Register for only one account. Your account is linked to your email address. If you register on
                         our site with more than one email address, you are registering for more than one account. If you
@@ -37,8 +37,8 @@ export const CodeOfConductPage = () => (
             <Col mdOffset={2} lg={8}>
                 <h3>Plagiarism</h3>
                 <p>Plagiarism is when you copy solutions or parts of it from another source without
-                    giving credit. Plagiarism is unacceptable in JAlgoArena, and is a serious
-                    violation of JAlgoArena's Honor Code.</p>
+                    giving credit. Plagiarism is unacceptable in AlgoCup’s, and is a serious
+                    violation of AlgoCup’s Honor Code.</p>
                 <p>If some or all of your assignment is identified as plagiarism, you may lose all credit you
                     received for your solution. It may result with account removal and further actions.</p>
             </Col>

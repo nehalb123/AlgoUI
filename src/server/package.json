@@ -1,20 +1,13 @@
 {
-  "name": "jalgoarena-ui-server",
+  "name": "algocup-ui-server",
   "version": "2.4.0",
-  "description": "JAlgoArena UI",
+  "description": "AlgoCup UI",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jalgoarena/JAlgoArena-UI.git"
+    "url": "git+https://github.com/nehalb123/AlgoUI.git"
   },
-  "keywords": [
-    "JAlgoArena"
-  ],
-  "author": "Jacek Spólnik",
+  "author": "Nehal Borole",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jalgoarena/JAlgoArena-UI/issues"
-  },
-  "homepage": "https://github.com/jalgoarena/JAlgoArena-UI#readme",
   "dependencies": {
     "serve-static": "^1.13.2",
     "express": "^4.16.3",

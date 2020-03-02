@@ -8,7 +8,7 @@ if (process.env.TRAVIS_BUILD_NUMBER) {
     version = `${version}.0-SNAPSHOT`
 }
 
-const path = `${__dirname}/dist/JAlgoArena-UI-${version}.zip`;
+const path = `${__dirname}/dist/Algo-UI-${version}.zip`;
 const output = fs.createWriteStream(path);
 const archive = new Archiver("zip", {store: true});
 
