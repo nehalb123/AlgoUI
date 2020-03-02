@@ -1,12 +1,10 @@
 import * as React from 'react';
 import {Link} from 'react-router-dom';
 import {Grid, Row, Col} from 'react-bootstrap';
-
 import FontAwesome from '../components/FontAwesome';
-import * as profile from '../../assets/img/profile.png';
+import * as profile from '../../assets/img/codehomepage.png';
 import {connect} from "react-redux";
 import {CSSProperties} from "react";
-import Background from '../../assets/img/homepage.png';
 
 const starLightStyle: CSSProperties = {
     padding: 0,
@@ -26,7 +24,6 @@ const containerStyle: CSSProperties = {
     marginBottom: -20,
     paddingTop: 60,
     paddingBottom: 50,
-    backgroundImage: `url(${Background})`
 };
 
 const imgStyle: CSSProperties = {
@@ -45,16 +42,13 @@ const introTextSkillsStyle: CSSProperties = {
     fontWeight: 300
 };
 
-const bgImageProperty: CSSProperties = {
-    backgroundImage: `url(${Background})`
-}
 
 export const Home = (props: {title: string}) => {
     return (
         <Grid fluid={true} style={containerStyle}>
             <Row>
                 <Col  lg={12}>
-                    {/* <img className="img-responsive" src={profile} alt="" style={imgStyle}/> */}
+                   <img className="img-responsive" src={profile} alt="" style={imgStyle}/>
                     <div className="intro-text">
                         <span className="name" style={introTextNameStyle}>{props.title}</span>
                         <hr className="star-light" style={starLightStyle}/>

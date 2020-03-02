@@ -48,13 +48,13 @@ const Menu = (props: MenuProps) => (
         <Navbar.Collapse>
             <Nav role="navigation" pullRight id="menu">
                 <MenuItem path="/" prefix="fas" icon="home" title="Home"/>
-                <MenuItem path="/problems" prefix="far" icon="lightbulb" title="Problems"/>
+                <MenuItem path="/problems" prefix="far" icon="puzzle-piece" title="Problems"/>
                 <RankingMenuItem/>
                 {props.user ? (
                     <MenuItem path="/submissions" prefix="fas" icon="code" title="Submissions"/>
                 ) : null}
                 <MenuItem path="/codeOfConduct" prefix="far" icon="handshake" title="Honor Code"/>
-                <MenuItem path="/developers" prefix="fas" icon="code" title="Developers"/>
+                <MenuItem path="/developers" prefix="fas" icon="keyboard" title="Developers"/>
                 <ProfileOrLoginMenuItem user={props.user} currentPath={props.currentPath} onLogout={props.onLogout}
                                         progress={props.progress}/>
             </Nav>

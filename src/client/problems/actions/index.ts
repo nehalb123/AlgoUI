@@ -98,7 +98,7 @@ export function fetchProblems() {
     };
 
     return (dispatch: Dispatch<Action>) => {
-        return fetch(`/api/judge/api/problems`, options)
+        return fetch(`http://localhost:5008/problems`, options)
             .then((response) => response.json())
             .then((json) => {
                 if (json.error) {
