@@ -68,7 +68,7 @@ class Submissions extends React.Component<SubmissionsProps, SubmissionsState> {
     }
 
     sourceCodeButtonFormatter(cell: {sourceCode: string, problemId: string}) {
-        return <Button bsStyle="success" block
+        return <Button bsStyle="primary" block
                        onClick={() => this.showSourceCode(cell.sourceCode, cell.problemId)}>
             <FontAwesome prefix="far" name="file-alt"/>
         </Button>;

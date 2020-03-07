@@ -48,7 +48,7 @@ const Menu = (props: MenuProps) => (
         <Navbar.Collapse>
             <Nav role="navigation" pullRight id="menu">
                 <MenuItem path="/" prefix="fas" icon="home" title="Home"/>
-                <MenuItem path="/problems" prefix="far" icon="puzzle-piece" title="Problems"/>
+                <MenuItem path="/problems" prefix="fas" icon="puzzle-piece" title="Problems"/>
                 <RankingMenuItem/>
                 {props.user ? (
                     <MenuItem path="/submissions" prefix="fas" icon="code" title="Submissions"/>

@@ -16,9 +16,6 @@ const UserDetails = (props: UserDetailsProps) =>
             seed={props.user.email}
             size={5}
             scale={40}
-            color="#18bc9c"
-            bgColor="#e1e4e8"
-            spotColor="#18bc9c"
         />
         <h2>{props.user.firstname} {props.user.surname}</h2>
         <h4 style={{"color": "#979faf"}}>(@{props.user.username})</h4>

@@ -41,10 +41,10 @@ const ProblemDetails = (props: ProblemProps) => {
             : null;
 
     const successOrDangerStyle = props.isSuccess
-        ? "text-success"
+        ? "text-primary"
         : props.isFailure
             ? "text-danger"
-            : "text-success";
+            : "text-primary";
 
     return (
         <Col md={5} style={problemStyle}>
@@ -53,8 +53,8 @@ const ProblemDetails = (props: ProblemProps) => {
             </Row>
             <Row>
                 <LinkContainer to={{pathname: `/problem/${props.id}`}}>
-                    <Button bsStyle="success" className="pull-right">
-                        <FontAwesome prefix="fas" name="bars"/> Solve Problem
+                    <Button bsStyle="primary" className="pull-right">
+                        <FontAwesome prefix="fas" name="bars"/> Open
                     </Button>
                 </LinkContainer>
 

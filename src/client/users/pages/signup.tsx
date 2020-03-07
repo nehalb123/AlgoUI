@@ -233,7 +233,7 @@ class SignUp extends React.Component<SignupProps, SignupState> {
                                     inputRef={ref => { this.confirmPassword = ref; }}
                                     validationState={this.state.isConfirmPasswordFieldIncorrect ? "error" : null}
                         />
-                        <Button type="submit" bsStyle="success" block onClick={this.onSignUp}>
+                        <Button type="submit" bsStyle="primary" block onClick={this.onSignUp}>
                             <FontAwesome prefix="fas" name="user"/> Create Account
                         </Button>
                         <HelpBlock>

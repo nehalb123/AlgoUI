@@ -142,7 +142,7 @@ class Login extends React.Component<LoginProps, LoginState> {
                                 validationState={this.state.isPasswordFieldIncorrect ? "error" : null}
                     />
                     <FormGroup className="text-center">
-                        <Button type="submit" bsStyle="success" onClick={this.onLogin} block>
+                        <Button type="submit" bsStyle="primary" onClick={this.onLogin} block>
                             <FontAwesome prefix="fas" name="sign-in-alt"/> Sign In
                         </Button>
                     </FormGroup>

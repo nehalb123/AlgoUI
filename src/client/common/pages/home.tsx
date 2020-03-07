@@ -18,7 +18,7 @@ const starLightStyle: CSSProperties = {
 
 const containerStyle: CSSProperties = {
     textAlign: "center",
-    background: "#18BC9C",
+    background: "#1896bc",
     color: "white",
     marginTop: -20,
     marginBottom: -20,
@@ -37,10 +37,6 @@ const introTextNameStyle: CSSProperties = {
     fontSize: "3em"
 };
 
-const introTextSkillsStyle: CSSProperties = {
-    fontSize: "1.25em",
-    fontWeight: 300
-};
 
 
 export const Home = (props: {title: string}) => {
@@ -54,7 +50,7 @@ export const Home = (props: {title: string}) => {
                         <hr className="star-light" style={starLightStyle}/>
                     </div>
                     <Link to="/problems" className="btn btn-lg btn-outline">
-                        <FontAwesome prefix="fas" name="bars"/> Learn More
+                        <FontAwesome prefix="fas" name="bars"/> Goto Problems
                     </Link>
                 </Col>
             </Row>

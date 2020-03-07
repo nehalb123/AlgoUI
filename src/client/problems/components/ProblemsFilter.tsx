@@ -1,15 +1,9 @@
 import * as React from 'react';
-
-import {ButtonGroup, Button, Col, Row, Badge} from 'react-bootstrap';
+import {ButtonGroup, Button, Col, Row} from 'react-bootstrap';
 import {CSSProperties} from "react";
 
 const filterStyle: CSSProperties = {
     marginRight: "30px"
-};
-
-const problemsCountStyle: CSSProperties = {
-    marginLeft: "20px",
-    marginTop: ".5em"
 };
 
 type ProblemsFilterProps = {
@@ -23,7 +17,6 @@ type ProblemsFilterProps = {
 const ProblemsFilter = (props: ProblemsFilterProps) => (
     <Row>
         <Col md={11}>
-            <Button onClick={() => props.onShowNumberOfProblems()} bsStyle="success" style={problemsCountStyle}>Problems <Badge>{props.problemsCount}</Badge></Button>
             <ButtonGroup className="pull-right" style={filterStyle} bsSize="large">
                 <Button onClick={() => props.changeFilter(1)} active={props.filter === 1}>Easy</Button>
                 <Button onClick={() => props.changeFilter(2)} active={props.filter === 2}>Medium</Button>

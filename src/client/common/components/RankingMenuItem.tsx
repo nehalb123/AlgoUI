@@ -11,7 +11,7 @@ const RankingMenuItem = () => (
         // @ts-ignore
         title={
             <span>
-        <FontAwesome prefix="fas" name="trophy" lg={true}/> Ranking
+        <FontAwesome prefix="fas" name="chart-line" lg={true}/> Ranking
       </span>
         }
     >

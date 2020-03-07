@@ -9,7 +9,6 @@ import ProblemsFilter from '../components/ProblemsFilter';
 import {setProblemsDifficultyVisibilityFilter, hideDoneProblems} from "../actions";
 import {fetchSolvedProblemsRatio} from "../../ranking/actions";
 import {Submission} from "../../submissions/domain/Submission";
-import NumberOfProblems from "../components/NumberOfProblems";
 import {AppState} from "../../common/reducers";
 import Problem from "../domain/Problem";
 import {Dispatch} from "redux";
@@ -130,13 +129,6 @@ class Problems extends React.Component<ProblemsProps, ProblemsState> {
             <TransitionGroup>
                 {problemNodes}
             </TransitionGroup>
-            <NumberOfProblems
-                show={this.state.showNumberOfProblems}
-                onHide={this.hideNumberOfProblems.bind(this)}
-                easy={problems.filter(problem => problem.level === 1).length}
-                medium={problems.filter(problem => problem.level === 2).length}
-                hard={problems.filter(problem => problem.level === 3).length}
-            />
         </Grid>;
     }
 }
