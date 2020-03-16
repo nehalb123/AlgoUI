@@ -36,14 +36,16 @@ interface MenuState {
 }
 
 const Menu = (props: MenuProps) => (
-    <Navbar fixedTop fluid>
+   
+    <Navbar fixedTop fluid inverse >
         <Navbar.Header>
             <Navbar.Toggle/>
-            <a className="navbar-brand" href="/">
-                <img src={logo} style={logoStyle}/>
-                &nbsp;
+            <Navbar.Brand>
+            <a className="" href="/">
+               AlgoCup &nbsp;
                 <WebSocketConnectionIndicator isConnected={props.isConnected}/>
             </a>
+            </Navbar.Brand>
         </Navbar.Header>
         <Navbar.Collapse>
             <Nav role="navigation" pullRight id="menu">

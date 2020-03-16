@@ -3,15 +3,16 @@
 import * as React from 'react';
 import {Grid, Col} from 'react-bootstrap';
 /* import * as logo from '../../assets/img/logo.png'; */
-/* import {CSSProperties} from "react"; */
+import {CSSProperties} from "react"; 
 
-/* const footerLogoStyle: CSSProperties = {
-    height: 50,
-    marginBottom: 15,
-}; */
+const footerLogoStyle: CSSProperties = {
+    height: 55,
+    marginBottom:"-10px"
+
+}; 
 
 const Footer = () => (
-    <footer className="footer">
+    <footer className="footer" style={footerLogoStyle}> 
         <hr/>
         <Grid>
             <Col md={12}>

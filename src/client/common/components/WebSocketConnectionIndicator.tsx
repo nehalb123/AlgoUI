@@ -6,8 +6,8 @@ interface WebSocketConnectionIndicatorProps {
 }
 
 const WebSocketConnectionIndicator = (props: WebSocketConnectionIndicatorProps) => (
-    <span className={props.isConnected ? 'text-success' : 'text-danger'}>
-      {props.isConnected ? <FontAwesome prefix="far" name="smile-beam"/> : <FontAwesome prefix="far" name="dizzy"/>}
+    <span className={props.isConnected ? 'text-success' : 'text-default'}>
+      {props.isConnected ? <FontAwesome prefix="far" name="smile-beam" /> : <FontAwesome prefix="far" name="dizzy"/>}
     
   </span>
 );

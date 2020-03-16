@@ -18,7 +18,7 @@ app.use(serveStatic(path.join(__dirname, "public")));
 
 
 const apiProxy = proxy('/api', {
-    target: process.env.JALGOARENA_API_HTTP_URL || "http://localhost:5001",
+    target: process.env.JALGOARENA_API_HTTP_URL || "http://localhost:5003",
     changeOrigin: true,
     pathRewrite: {
         '^/api': ''
