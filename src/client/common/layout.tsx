@@ -10,6 +10,7 @@ import {SubmissionsPage} from "../submissions/index";
 import {Route, Switch} from "react-router-dom";
 import {HomePage} from "./pages/home";
 import {CodeOfConductPage} from "./pages/codeOfConduct";
+import {DevelopersPage} from "./pages/DevelopersPage";
 
 export class Layout extends React.Component<any, any> {
     render() {
@@ -28,6 +29,7 @@ export class Layout extends React.Component<any, any> {
                 <Route exact path="/teamRanking" component={TeamRankingPage}/>
                 <Route exact path="/regionRanking" component={RegionRankingPage}/>
                 <Route exact path="/codeOfConduct" component={CodeOfConductPage}/>
+                <Route exact path="/developers" component={DevelopersPage}/>
             </Switch>
             <Footer/>
         </div>;
