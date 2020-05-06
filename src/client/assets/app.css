@@ -132,3 +132,14 @@ hr.star-light:after {
 .dropdown-menu .divider {
     margin: 5px 0;
 }
+
+.caption{
+    display: block;
+}
+
+.item{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+}
