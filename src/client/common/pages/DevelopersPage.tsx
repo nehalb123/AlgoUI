@@ -35,8 +35,5 @@ export const DevelopersPage = () => (
                </div>
             </Col>
         </Row>
-        <Row>
-            
-        </Row>
   </Grid>
 );

@@ -15,11 +15,8 @@ const Footer = () => (
         <hr/>
         <Grid>
             <Col md={12}>
-                <span>Created by UGFsbGF2aSBWZXRhbCwgTmVoYWwgQm9yb2xlLCBBbnVyYWcgR3VwdGE=</span>
+                <span> </span>
             </Col>
-           {/*  <Col md={7}>
-                <img src={logo} className="img-responsive" style={footerLogoStyle}/>
-            </Col> */}
         </Grid>
     </footer>
 );
